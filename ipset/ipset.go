@@ -20,12 +20,12 @@ package ipset
 import (
 	"errors"
 	"fmt"
+	"log"
 	"os/exec"
 	"regexp"
 	"strconv"
 	"strings"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/coreos/go-semver/semver"
 )
 
